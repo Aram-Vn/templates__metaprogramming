@@ -137,6 +137,7 @@ bool any::has_value() const noexcept
 void any::reset() noexcept
 {
     destroy(m_data);
+    m_data = nullptr;
 }
 
 void any::swap(any& other)
@@ -177,6 +178,17 @@ int main()
 {
     try
     {
+        any myAny = 42;
+        std::cout << "Value of myAny: " << any_cast<int>(myAny) << std::endl;
+
+        // Assign a double
+        myAny = 0.25;
+        std::cout << "Value of myAny after assignment: " << any_cast<double>(myAny) << std::endl;
+
+        // Assign a string
+        myAny = std::string("Hello, any!");
+        std::cout << "Value of myAny after assignment: " << any_cast<std::string>(myAny) << std::endl;
+
         // Test with integer
         any myIntAny = 42;
         std::cout << "Value of myIntAny: " << any_cast<int>(myIntAny) << std::endl;
@@ -207,7 +219,10 @@ int main()
         std::cerr << "Caught exception: " << e.what() << std::endl;
     }
 
-    return 0;
+    std::any ob = 125;
+    ob = "hello";
+    std::cout << std::any_cast<const char*>(ob) << std::endl; // ok
+    // std::cout << std::any_cast<int>(ob) << std::endl; // no!!!
 }
 
 // std::any ob = 125;
