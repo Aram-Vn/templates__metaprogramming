@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/aram/dev/templates__metaprogramming/2__day/build"
+			"value" : "/home/aram/dev/templates__metaprogramming/3__day/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -571,7 +571,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/aram/dev/templates__metaprogramming/2__day/build/CMakeFiles/pkgRedirects"
+			"value" : "/home/aram/dev/templates__metaprogramming/3__day/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -631,7 +631,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/aram/dev/templates__metaprogramming/2__day"
+			"value" : "/home/aram/dev/templates__metaprogramming/3__day"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1195,7 +1195,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/aram/dev/templates__metaprogramming/2__day/build"
+			"value" : "/home/aram/dev/templates__metaprogramming/3__day/build"
 		},
 		{
 			"name" : "test_IS_TOP_LEVEL",
@@ -1219,7 +1219,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/aram/dev/templates__metaprogramming/2__day"
+			"value" : "/home/aram/dev/templates__metaprogramming/3__day"
 		}
 	],
 	"kind" : "cache",

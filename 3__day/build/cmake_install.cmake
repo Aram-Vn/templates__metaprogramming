@@ -1,4 +1,4 @@
-# Install script for directory: /home/aram/dev/templates__metaprogramming/2__day
+# Install script for directory: /home/aram/dev/templates__metaprogramming/3__day
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/aram/dev/templates__metaprogramming/2__day/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/aram/dev/templates__metaprogramming/3__day/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
